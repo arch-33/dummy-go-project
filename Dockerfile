@@ -2,7 +2,7 @@
 FROM golang:1.22.6-alpine
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /
 
 # Copy the Go module files
 COPY go.mod ./
@@ -14,7 +14,7 @@ RUN go mod download
 COPY . .
 
 # Build the Go application
-RUN go build -o app
+RUN go build -o app ./cmd/dummy-go/
 
 # Set the entry point for the container
 ENTRYPOINT ["./app"]
