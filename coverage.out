@@ -1,0 +1,5 @@
+mode: set
+dummy-go/internal/operations/operations.go:3.28,5.2 1 1
+dummy-go/internal/operations/operations.go:7.33,9.2 1 1
+dummy-go/internal/operations/operations.go:11.33,13.2 1 1
+dummy-go/internal/operations/operations.go:15.31,17.2 1 1
