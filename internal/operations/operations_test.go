@@ -24,7 +24,7 @@ func TestSubtract(t *testing.T) {
 
 func TestMultiply(t *testing.T) {
 	result := Multiply(4, 5)
-	expected := 200
+	expected := 20
 
 	if result != expected {
 		t.Errorf("Multiply(4, 5) = %d; expected %d", result, expected)
