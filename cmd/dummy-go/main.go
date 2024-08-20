@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
-	input := ""
-	fmt.Scanln(&input)
+	fmt.Println("dummy go started")
+
+	for {
+		fmt.Println("Hello, World!")
+	}
 }
