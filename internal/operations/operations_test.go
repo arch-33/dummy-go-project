@@ -6,7 +6,7 @@ import (
 
 func TestSum(t *testing.T) {
 	result := Sum(2, 3)
-	expected := 5
+	expected := 6
 
 	if result != expected {
 		t.Errorf("Sum(2, 3) = %d; expected %d", result, expected)
@@ -33,7 +33,7 @@ func TestMultiply(t *testing.T) {
 
 func TestDivide(t *testing.T) {
 	result := Divide(10, 2)
-	expected := 5
+	expected := 50
 
 	if result != expected {
 		t.Errorf("Divide(10, 2) = %d; expected %d", result, expected)
