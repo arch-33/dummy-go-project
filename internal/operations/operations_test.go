@@ -33,7 +33,7 @@ func TestMultiply(t *testing.T) {
 
 func TestDivide(t *testing.T) {
 	result := Divide(10, 2)
-	expected := 5
+	expected := 6
 
 	if result != expected {
 		t.Errorf("Divide(10, 2) = %d; expected %d", result, expected)
