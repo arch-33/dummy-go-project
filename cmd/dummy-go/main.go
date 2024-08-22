@@ -10,6 +10,6 @@ func main() {
 
 	for {
 		time.Sleep(10 * time.Second)
-		fmt.Println("dummy go running")
+		fmt.Println("dummy go running now")
 	}
 }
