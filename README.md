@@ -1,4 +1,2 @@
 # dummy-go-project
 
-
-updated
