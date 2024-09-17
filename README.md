@@ -1,4 +1,1 @@
 # dummy-go-project
-
-tag
-
